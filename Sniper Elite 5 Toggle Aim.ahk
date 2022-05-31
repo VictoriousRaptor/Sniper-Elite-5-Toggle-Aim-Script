@@ -20,12 +20,12 @@ else
         Else{
             Send {RButton up}
         }
-        Return
     }
     Else{
         Send {RButton Down}
         Send {RButton Up}
     }
+    Return
 
 #IfWinActive ahk_class Sniper Elite 5
 R::
